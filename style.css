@@ -14,9 +14,43 @@ li {
 }
 
 /* base styles */
-body {
+body #welcomepage {
   background: var(--primary);
   overflow-x: hidden;
 }
 
-/* fonts */
+/* mobile style */
+
+/* index.html start */
+#welcome {
+  font-family: 'Cinzel Decorative', cursive;
+  color: #8BD9A1;
+  stroke: #224316;
+  text-align: center;
+  
+}
+
+#homepic {
+  
+
+}
+
+/* index.html end */
+body{
+  background: #ACC2A4;
+  overflow-x: hidden;
+}
+
+#title {
+  margin: 0;
+  text-align: end;
+  font-family: 'Cinzel Decorative', cursive;
+}
+/* about.html start */
+
+/* about.html end */
+/* tablet style */
+
+/* laptop style */
+
+/* desktop style */

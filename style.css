@@ -14,7 +14,7 @@ li {
 }
 
 /* base styles */
-body #welcomepage {
+.welcomepage{
   background: var(--primary);
   overflow-x: hidden;
 }
@@ -36,19 +36,61 @@ body #welcomepage {
 }
 
 /* index.html end */
-body{
+
+/* home.html start */
+.homepages{
   background: #ACC2A4;
   overflow-x: hidden;
 }
 
-#title {
+#title1, #title2 {
   margin: 0;
   text-align: end;
   font-family: 'Cinzel Decorative', cursive;
+  font-weight: normal;
+  font-size: 36px;
 }
+
+#title1 {
+  margin: 30px 20px 0 0;
+}
+
+#title2 {
+  margin: 0 20px 15px 0;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Cinzel Decorative', cursive;
+  text-transform: lowercase;
+  margin-top: 10px;
+}
+
+#nav li a {
+  color: black;
+  font-size: 15px;
+}
+
+#frontpic {
+  border-radius: 10px;
+  margin: 50px 0 0 24px;
+  
+}
+
+#bottompic {
+  border-radius: 10px;
+  float: right;
+  margin: 80px 24px 0 0;
+}
+
+/* home.html end */
+
 /* about.html start */
 
+
 /* about.html end */
+
 /* tablet style */
 
 /* laptop style */

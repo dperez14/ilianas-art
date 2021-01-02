@@ -19,20 +19,29 @@ li {
   overflow-x: hidden;
 }
 
+/******************************************************************/
+
 /* mobile style */
 
 /* index.html start */
-#welcome {
+.homepics {
+  display: flex;
+  flex-direction: column;
+}
+h1 #welcome {
   font-family: 'Cinzel Decorative', cursive;
   color: #8BD9A1;
   stroke: #224316;
-  text-align: center;
-  
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-#homepic {
+img #homepic {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
   
-
 }
 
 /* index.html end */
@@ -49,6 +58,10 @@ li {
   font-family: 'Cinzel Decorative', cursive;
   font-weight: normal;
   font-size: 36px;
+}
+
+#title1 a, #title2 a {
+  color: black;
 }
 
 #title1 {
@@ -72,6 +85,11 @@ li {
   font-size: 15px;
 }
 
+#nav li a:active {
+  background-color: #224316;
+  color: white;
+}
+
 #frontpic {
   border-radius: 10px;
   margin: 50px 0 0 24px;
@@ -91,7 +109,62 @@ li {
 
 /* about.html end */
 
+/*photo.html start */
+/* .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 40vh;
+  
+} 
+
+.fotos {
+  margin-top: 8px;
+  padding: 3px;
+  height: auto;
+  width: 100%;
+} */
+
+.gallery ul {
+  margin-top: 13px;
+}
+
+.gallery ul li {
+  height: auto;
+  width: 100%;
+
+}
+
+.gallery img {
+  max-height: 100%;
+  width: 100%;
+  min-width: 0;
+  
+}
+
+/*photo.html end */
+
 /* tablet style */
+@media screen and (min-width: 620px){
+
+  .gallery ul {
+    display: flex;
+    margin-top: 13px;
+  }
+  
+  .gallery ul li {
+    height: auto;
+    width: 100%;
+  }
+  
+  .gallery img {
+    max-height: 100%;
+    width: 100%;
+    min-width: 0;
+  }
+}
+/* tablet style end*/
+
 
 /* laptop style */
 

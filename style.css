@@ -105,25 +105,20 @@ img #homepic {
 /* home.html end */
 
 /* about.html start */
+.aboutimg {
+  text-align: center;
+}
 
+.aboutimg img {
+  width: 50%;
+  height: auto;
+  
+}
 
 /* about.html end */
 
 /*photo.html start */
-/* .gallery {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  height: 40vh;
-  
-} 
 
-.fotos {
-  margin-top: 8px;
-  padding: 3px;
-  height: auto;
-  width: 100%;
-} */
 
 .gallery ul {
   margin-top: 13px;
@@ -149,8 +144,10 @@ img #homepic {
   .gallery ul {
     display: flex;
     margin-top: 13px;
-    
-    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   
   .gallery ul li {
@@ -162,8 +159,7 @@ img #homepic {
   
   .gallery img {
     max-height: auto;
-    width: 100%;
-    
+    width: 70%;
     flex-basis: 300px;
     
   }
@@ -171,8 +167,60 @@ img #homepic {
   
 }
 /* tablet style end*/
+@media screen and (min-width: 920px){
 
+  .gallery ul {
+    display: flex;
+    margin-top: 13px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .gallery ul li {
+    height: auto;
+    width: 100%;
+    
+    
+  }
+  
+  .gallery img {
+    max-height: auto;
+    width: 40%;
+    flex-basis: 300px;
+    
+  }
+
+  
+}
 
 /* laptop style */
+@media screen and (min-width: 1200px){
 
+  .gallery ul {
+    display: flex;
+    margin-top: 13px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .gallery ul li {
+    height: auto;
+    width: 100%;
+    
+    
+  }
+  
+  .gallery img {
+    max-height: auto;
+    width: 30%;
+    flex-basis: 300px;
+    
+  }
+
+  
+}
 /* desktop style */
